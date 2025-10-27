@@ -95,7 +95,7 @@ function App() {
       <AuthProviderCli>
         <Routes>
           <Route path="/login-cli" element={<Logincli />} />
-          <Route path="/home-cli" element={<Homecli />} />
+          <Route path="/home-cli" element={<Homecli/>} />
           <Route path="/producto-cli" element={<ProductosCliente />} />
           <Route path="/carrito" element={<CarritoCliente />} />
            <Route path="/register" element={<RegistroCliente />} />

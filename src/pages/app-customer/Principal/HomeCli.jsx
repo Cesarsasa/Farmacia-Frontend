@@ -21,9 +21,6 @@ export default function Homecli() {
         © {new Date().getFullYear()} Farmacia Antigua. Todos los derechos reservados.
       </footer>
     </div>
-   
- 
-
   );
 
 }

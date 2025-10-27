@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { useAuth } from "../context/AuthContextCli";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
 
 const [totalItems, setTotalItems] = useState(0); // ✅ correcto
