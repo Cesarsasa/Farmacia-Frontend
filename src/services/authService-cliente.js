@@ -1,8 +1,9 @@
+import { API_URL } from "../../src/config/api";
 // src/services/authService.js
-const API_URL = 'http://localhost:8082/api/auth'; // cambia esto por tu dominio real
+ // cambia esto por tu dominio real
 
 export async function loginCliente(correo, contrasena) {
-  const res = await fetch(`${API_URL}/login-cliente`, {
+  const res = await fetch(`${API_URL}/auth/login-cliente`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ correo, contrasena }),
@@ -25,7 +26,7 @@ export function logout() {
 }
 
 // src/services/authService.js
-const API_USER_URL = 'http://localhost:8082/api/customer';
+const API_USER_URL = `${API_URL}/customer`;
 
 export async function getUsuarioById(id, token) {
   const res = await fetch(`${API_USER_URL}/${id}`, {
