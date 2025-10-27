@@ -9,9 +9,9 @@ const Navbar = () => {
 </Link>
 
       <div className="flex items-center gap-8">
-        <a href="/home-cli" className="hover:underline">Sitio Web</a>
-        <a href="/Repo/Inventario" className="hover:underline">Inventario</a>
-        <a href="/Repo" className="hover:underline">Reportes</a>
+         <Link to="/home-cli" className="hover:underline">Sitio Web</Link>
+        <Link to="/Repo/Inventario" className="hover:underline">Inventario</Link>
+        <Link to="/Repo" className="hover:underline">Reportes </Link>
 
         {/* Ícono de perfil con padding superior */}
         <div className="pt-1">
