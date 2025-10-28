@@ -8,10 +8,8 @@ const [totalItems, setTotalItems] = useState(0); // ✅ correcto
 
 useEffect(() => {
   const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-  const total = carrito.reduce((acc, item) => acc + item.cantidad, 0);
-  setTotalItems(total); // ✅ actualiza el estado
+  setTotalItems(carrito.length > 0 ? 1 : 0); // solo activa si hay algo
 }, []);
-
 
   const { user, signout } = useAuth();
 
@@ -27,10 +25,10 @@ useEffect(() => {
         <li className="relative">
           <Link to="/carrito" className="text-2xl hover:text-yellow-300">🛒</Link>
           {totalItems > 0 && (
-            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">
-              {totalItems}
-            </span>
-          )}
+  <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded-full animate-pulse">
+    !
+  </span>
+)}
         </li>
 
         {/* ✅ Mostrar perfil si está logueado */}

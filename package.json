@@ -3,16 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-    "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "lint": "eslint ."
- 
-    },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@heroicons/react": "^2.2.0",
+    "@mui/material": "^7.3.4",
     "@stripe/stripe-js": "^8.1.0",
-    "axios": "^1.12.2",
+    "axios": "^1.13.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4",

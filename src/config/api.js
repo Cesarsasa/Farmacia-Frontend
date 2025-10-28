@@ -73,6 +73,7 @@ export const endpoints = {
 
   factura: {
       mostrar: `${API_URL}/facturas`,
+      enviarCorreo: (id) => `${API_URL}/facturas/correo/${id}`,
         ultima: (id) => `${API_URL}/facturas/ultima/${id}`,
       crear: `${API_URL}/facturas/create`,
         generarPDF: (id) => `${API_URL}/facturas/pdf/${id}`,

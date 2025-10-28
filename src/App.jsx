@@ -36,7 +36,7 @@ import Homecli from './pages/app-customer/Principal/HomeCli';
 import ProductosCliente from './pages/app-customer/Secundaria/Producto/ProductoCliente';
 import CarritoCliente from './pages/app-customer/Secundaria/Carrito/Carrito';
 import RegistroCliente from './pages/app-customer/Secundaria/Registro/RegistroCreate';
-import FacturaOpcional from './pages/app-customer/Secundaria/Factura/Factura';
+import FacturaAcciones from './pages/app-customer/Secundaria/Factura/Factura';
 import InventarioRepo from './pages/app-admin/Reporteria/Inventario';
  import Contactocli from './pages/app-customer/Principal/Contactos';
  import Reportes from './pages/app-admin/Reporteria/Reporte';
@@ -99,7 +99,7 @@ function App() {
           <Route path="/producto-cli" element={<ProductosCliente />} />
           <Route path="/carrito" element={<CarritoCliente />} />
            <Route path="/register" element={<RegistroCliente />} />
-            <Route path="/factura/opc" element={<FacturaOpcional />} />
+            <Route path="/factura/opc" element={<FacturaAcciones />} />
             <Route path="/contacto-cli" element={<Contactocli />} />
           
         </Routes>

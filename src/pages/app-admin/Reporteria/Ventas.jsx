@@ -25,7 +25,7 @@ if ( !user) {
   title="Power BI Report"
   width="100%"
   height="650"
-  src="https://app.powerbi.com/view?r=eyJrIjoiNzY2OTE3MDYtMmQzNC00N2I3LWFkMWEtNTAzZDNmMWRkOGZhIiwidCI6IjVmNTNiNGNlLTYzZDQtNGVlOC04OGQyLTIyZjBiMmQ0YjI3YSIsImMiOjR9"
+  src="https://app.powerbi.com/view?r=eyJrIjoiMTY0MWI2YWUtYmRjMC00MjY0LWFiZTgtODk5YjMwYjllZjc5IiwidCI6IjVmNTNiNGNlLTYzZDQtNGVlOC04OGQyLTIyZjBiMmQ0YjI3YSIsImMiOjR9&pageName=c9d2098556d468373b8c"
   allowFullScreen
 ></iframe>
   
