@@ -43,6 +43,7 @@ import InventarioRepo from './pages/app-admin/Reporteria/Inventario';
  import Usu from './pages/app-admin/Reporteria/Usuarios';
  import Ventas from './pages/app-admin/Reporteria/Ventas';
  import Salario from './pages/app-admin/Reporteria/Salario';
+ import ClientePerfil from './pages/app-customer/Secundaria/Cliente/ClientePerfil';
 
 function App() {
   return (
@@ -101,6 +102,8 @@ function App() {
            <Route path="/register" element={<RegistroCliente />} />
             <Route path="/factura/opc" element={<FacturaAcciones />} />
             <Route path="/contacto-cli" element={<Contactocli />} />
+            <Route path="/cliente-perfil" element={<ClientePerfil/>} />
+            
           
         </Routes>
       </AuthProviderCli>

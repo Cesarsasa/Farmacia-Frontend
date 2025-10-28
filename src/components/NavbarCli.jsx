@@ -40,7 +40,7 @@ useEffect(() => {
             </button>
             <ul className="absolute right-0 mt-0 w-48 bg-white text-blue-700 rounded-lg shadow-lg border border-gray-200 hidden group-hover:block z-50">
               <li>
-                <a href="/perfil" className="block px-4 py-3 hover:bg-blue-100">Mi perfil</a>
+                <a href="/cliente-perfil" className="block px-4 py-3 hover:bg-blue-100">Mi perfil</a>
               </li>
               <li>
                 <button
