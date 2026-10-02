@@ -2,8 +2,8 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import axios from 'axios';
-import CarritoTabla from './CarritoTabla';
-import { useAuth } from '../context/AuthContextCli';
+import CarritoTabla from '../CarritoTabla';
+import { useAuth } from '../../context/AuthContextCli';
 
 /**
  * Corresponde a la ficha TC-AUTO-010 del informe técnico.
@@ -15,7 +15,7 @@ import { useAuth } from '../context/AuthContextCli';
  */
 
 vi.mock('axios');
-vi.mock('../context/AuthContextCli');
+vi.mock('../../context/AuthContextCli');
 
 const mockItems = [
   {

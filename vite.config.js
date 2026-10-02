@@ -22,5 +22,9 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.js',
     globals: true,
+    reporters: ['default', 'html'],
+outputFile: {
+html: './reports/vitest-report.html'
+}
   } 
 })
